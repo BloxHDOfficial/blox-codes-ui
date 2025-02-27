@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blox Codes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="shining-text">Blox Codes</h1>
+        <p>Generate unique random keys for your products.</p>
+        <input type="number" id="keyLength" placeholder="Enter key length (6 - 30)" min="6" max="30">
+        <button id="generateKey">Generate Key</button>
+        <p id="errorMessage" class="error-message"></p>
+        <div id="keyContainer" class="hidden">
+            <p>Your key is:</p>
+            <p id="keyOutput"></p>
+            <button id="copyKey">Copy to Clipboard</button>
+            <button id="reset">Reset</button>
+        </div>
+        <p class="version">Version 1.2.1</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
